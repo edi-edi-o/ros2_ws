@@ -1,0 +1,9 @@
+<robot name="imu_model">
+    <link name="imu_link">
+        <visual>
+            <geometry>
+                <mesh filename="file:///home/edi/ros2_ws/src/imu_phone_data/urdf/a52/a52.dae"/>
+            </geometry>
+        </visual>
+    </link>
+</robot>

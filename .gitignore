@@ -1,0 +1,14 @@
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Additional VS Code settings files
+.vscode/*
+!.vscode/settings.json  # If you want to keep this specific file
+!.vscode/extensions.json  # If you want to share extensions recommendations
+
+# VS Code history and settings
+.history/
+
+# Other VS Code related files (if applicable)
+.DS_Store

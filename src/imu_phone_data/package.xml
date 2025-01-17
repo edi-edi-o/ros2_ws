@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>imu_phone_data</name>
+  <version>0.0.0</version>
+  <description>Package for processing and visualizing IMU data from a phone, including network data reception.</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>std_msgs</depend>
+  <depend>boost</depend>
+  <depend>robot_state_publisher</depend> <!-- Added dependency for robot_state_publisher -->
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
